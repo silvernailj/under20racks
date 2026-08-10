@@ -73,9 +73,6 @@ NFPA 75 (2024), NFPA 2001, ANSI/TIA-942-C (2024), TIA-607-D, ASHRAE TC 9.9 5th e
 BICSI 002. Codes are adopted and amended locally, and conditions vary by room. The AHJ, the
 engineer of record and your insurer all outrank this drawing set.
 
-On tiers: the Uptime Institute defines **four** (I–IV). "Tier 5" is a proprietary Switch
-marketing designation, not an Uptime classification.
-
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — use, adapt and build on these
