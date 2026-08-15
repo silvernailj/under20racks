@@ -1,6 +1,6 @@
 # Server Room Drawings — 20 Racks or Fewer
 
-Fourteen editable drawing sheets for designing a small server room: layout, airflow, power,
+Fifteen editable drawing sheets for designing a small server room: layout, airflow, power,
 grounding, fire protection and cabling. Every sheet is an `.excalidraw` file — open it, drag
 things around, change the numbers to match your room.
 
@@ -26,6 +26,7 @@ Sheets are numbered by discipline, the way a construction drawing set is: **A** 
 | `E-301` | Power — Single-Line Diagram | Utility → ATS → UPS → PDU → rack, EPO, maintenance bypass |
 | `E-302` | Grounding & Bonding — Riser | Electrode system → TMGB → TBB → TGB → rack bonding, busbar detail |
 | `E-431` | Circuit Schedule, Feed Path & Connector Plate | Phase-balanced 42-space schedule, balance under A/B failover, one branch circuit end to end, connector capacities |
+| `E-450` | Lighting & Egress Illumination | Reflected ceiling plan with the fixture rows on the aisle centerlines, why an over-the-rack fixture leaves the face in shadow, illuminance targets in both planes, and the EPO boundary that egress lighting must sit outside of |
 | `FP-501` | Fire Protection, Room Integrity & Life Safety | Agent and nozzle layout, cross-zoned detection, slab-to-deck enclosure integrity, pressure relief venting, cause-and-effect matrix |
 | `T-201` | Rack Elevation — 42U Build Standard | 42U front and rear build standard, reach zone, zero-U PDUs |
 | `T-401` | Cable Pathways & Ladder Rack | Tiered separation, ladder rack, fill and bend-radius values |
@@ -49,7 +50,7 @@ Nothing is a flattened image or a locked group.
 Plans and sections are drawn to a fixed scale of **24 px = 1 ft** (so 1 px = ½″). If you keep
 that ratio, anything you add stays dimensionally honest against the rest of the sheet.
 
-Color carries meaning, consistently across all fourteen sheets:
+Color carries meaning, consistently across all fifteen sheets:
 
 | Color | Means |
 |-------|-------|
@@ -72,6 +73,9 @@ on these sheets is a starting point drawn from the referenced standards — NEC 
 NFPA 75 (2024), NFPA 2001, ANSI/TIA-942-C (2024), TIA-607-D, ASHRAE TC 9.9 5th ed. (2021),
 BICSI 002. Codes are adopted and amended locally, and conditions vary by room. The AHJ, the
 engineer of record and your insurer all outrank this drawing set.
+
+On tiers: the Uptime Institute defines **four** (I–IV). "Tier 5" is a proprietary Switch
+marketing designation, not an Uptime classification.
 
 ## License
 
